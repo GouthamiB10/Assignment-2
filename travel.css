@@ -1,0 +1,87 @@
+/* Layout */
+body,html{
+    height : 100%;
+    margin : 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+/* Images  */
+.img1, .img2, .img3{
+   position: relative;
+   opacity: 0.70;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.img1{
+    background-image: url('Images/Budapest.jpg');
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url("Images/London.jpg");
+    min-height: 400px;
+}
+.img3 {
+    background-image: url("Images/Paris.jpg");
+    min-height: 400px;
+}
+
+ /* Typography */
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    
+}
+
+.section-one{
+    background-color: #defcf9;
+    color :#666;
+}
+
+.section-two{
+    background-color:#cadefc;
+    color: #666;
+
+}
+ .section-three{
+    background-color: #c3bef0 ;
+    color:#666;
+
+ }
+ 
+ .text{
+    position: absolute;
+    top : 50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size: 27px;
+    letter-spacing:8px;
+}
+ /* Text Border and Text transparent */
+.text .border{
+    background-color: #000;
+    color:whitesmoke;
+    padding: 20px;
+ }
+
+ .text .border.light{
+    background-color: transparent ;
+ }
+ /* Fit to screen */
+@media(max-width:568px)
+ {
+    img1,img2,img3{
+        background-attachment: scroll;
+     }
+    
+ }
+
+
+ 
