@@ -9,7 +9,7 @@ body,html{
     color: #666;
 }
 /* Images  */
-.img1, .img2, .img3{
+.img1, .img2, .img3,.img4{
    position: relative;
    opacity: 0.70;
    background-position: center;
@@ -19,7 +19,7 @@ body,html{
 }
 
 .img1{
-    background-image: url('Images/Budapest.jpg');
+    background-image: url('Images/Country.jpg');
     min-height: 100%;
 }
 
@@ -29,6 +29,10 @@ body,html{
 }
 .img3 {
     background-image: url("Images/Paris.jpg");
+    min-height: 400px;
+}
+.img4 {
+    background-image: url("Images/Budapest.jpg");
     min-height: 400px;
 }
 
@@ -52,10 +56,12 @@ body,html{
  .section-three{
     background-color: #c3bef0 ;
     color:#666;
-
  }
- 
- .text{
+ .section-four{
+     background-color: #f6e5f5;
+     color: #666;
+ }
+.text{
     position: absolute;
     top : 50%;
     width:100%;
@@ -77,7 +83,7 @@ body,html{
  /* Fit to screen */
 @media(max-width:568px)
  {
-    img1,img2,img3{
+    img1,img2,img3,img4{
         background-attachment: scroll;
      }
     
