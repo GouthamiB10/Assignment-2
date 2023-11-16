@@ -79,6 +79,9 @@ body,html{
 
  .text .border.light{
     background-color: transparent ;
+    color:#7d8df6;
+    padding: 20px;
+    
  }
  /* Fit to screen */
 @media(max-width:568px)
